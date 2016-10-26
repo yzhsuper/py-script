@@ -14,7 +14,7 @@ user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
 headers = {'User-Agent': user_agent}
 
 limit = 20
-if not sys.argv:
+if sys.argv:
     limit = sys.argv[1]
 
 order_numbers = []
