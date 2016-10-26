@@ -19,7 +19,7 @@ response = requests.get(url=url, headers=headers, cookies=Cookie)
 html = etree.HTML(response.content)
 nodes = html.xpath('//*[@id="js-hot-zero-swiper"]/div[1]/div/div/div[4]/a[2]')
 
-command = 'python draw.py %s 3'
+command = 'python draw.py %s 10'
 
 for node in nodes:
     d = node.attrib.get('treasure_id')

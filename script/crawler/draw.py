@@ -29,4 +29,6 @@ if sys.argv and len(sys.argv) > 2:
 while i <= limit:
     response = requests.post(url=url, data=post_data, headers=headers, cookies=Cookie)
     print id_str, response.content.decode('unicode_escape').encode('utf-8')
+    if 'false' in  response.content:
+        break
     i += 1
