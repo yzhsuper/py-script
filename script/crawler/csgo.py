@@ -18,7 +18,7 @@ Cookie = {"__cfduid":"db5a5320d9d476d22e66c68a4933e821f1469677111", "csrftoken":
           "sessionid":"xi5dbm9u04427hn70bwmdm4yefsz0kut", "_ga":"GA1.2.1757933044.1469677111",
           "_gat_UA-73155637-1": "1"}
 
-name_dict = dict()
+name_dict = {}
 buy_num_dict = dict()
 TOTAL_PAGE = 39
 for x in range(1, TOTAL_PAGE):

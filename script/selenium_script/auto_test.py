@@ -1,22 +1,21 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
-
-from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.keys import Keys
 import time
+from selenium import webdriver
 
+browser = webdriver.PhantomJS()
 browser = webdriver.Firefox()
-browser.get("http://www.baidu.com")
-print browser, browser.title
-
-# elem = browser.find_element_by_name("p") # Find the query box
-# elem.send_keys("seleniumhq" + Keys.RETURN)
-# time.sleep(0.2) # Let the page load, will be added to the API
 try:
-    ele = browser.find_element_by_xpath("id('kw')")
-    print ele
-except NoSuchElementException:
-    assert 0, "can't find seleniumhq"
-browser.close()
+    browser.get('http://www.igxe.cn/')
+    login_btn = browser.find_element_by_xpath('//*[@id="header"]/div[1]/div/div/div[2]/ul/li[5]/a[2]')
+    login_btn.click()
+    # browser.refresh()
+    browser.find_element_by_id("steamAccountName").send_keys('remainvitality')
+    browser.find_element_by_id("steamPassword").send_keys('steamyzh1081250324')
+    browser.find_element_by_id("imageLogin").click()
+    time.sleep(5)
+    print browser.current_url
+    browser.save_screenshot('bd.png')
+    browser.quit()
+except BaseException as e:
+    print e

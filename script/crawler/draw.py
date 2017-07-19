@@ -9,8 +9,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
 headers['X-Requested-With'] = 'XMLHttpRequest'
 headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8'
 
-Cookie = {"__cfduid": "d6738eaa899c8c3e7c00bda2b9e90f68b1476841788", "csrftoken": "NSZykMCMn7rcQ7fTMKT9SQop9OOckWbp",
-          "sessionid": "u5x8v5ccy13hl0zreargacxlmzjvocis"}
+Cookie = {"__cfduid": "d6738eaa899c8c3e7c00bda2b9e90f68b1476841788", "csrftoken": "mLEfLJcuxv8YSWmQqoJKIelrVTpRm79m","sessionid": "n7jt9xzjj1ezh6f901ssy6pv6dkyjjpe"}
 
 id_str = 9121
 
@@ -18,7 +17,7 @@ if sys.argv and len(sys.argv) > 1:
     id_str = sys.argv[1]
 
 
-post_data = {"treasure_id": id_str, 'csrfmiddlewaretoken': 'NSZykMCMn7rcQ7fTMKT9SQop9OOckWbp'}
+post_data = {"treasure_id": id_str, 'csrfmiddlewaretoken': 'mLEfLJcuxv8YSWmQqoJKIelrVTpRm79m'}
 
 limit = 2
 i = 1

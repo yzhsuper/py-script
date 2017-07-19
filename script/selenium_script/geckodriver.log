@@ -1,0 +1,75 @@
+1489643510778	geckodriver	INFO	Listening on 127.0.0.1:47705
+1489643511849	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.RHGVrRJd7Aqo
+1489643511850	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1489643511853	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46939
+1489643600111	geckodriver	INFO	Listening on 127.0.0.1:58124
+1489643600170	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.pukJC5CMkoGv
+1489643600171	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1489643600179	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38087
+
+(firefox:128418): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1489643605305 Marionette: Element is missing an accesible name -> id: kw, tagName: INPUT, className: s_ipt
+
+(firefox:128418): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:128418): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1432_21122_18560_22035_20929&csor=1&cb=jQuery1102036520651203701315_1489643604864&_=1489643604866, line 1: TypeError: jQuery1102036520651203701315_1489643604864 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=py&json=1&p=3&sid=1432_21122_18560_22035_20929&csor=2&pwd=p&cb=jQuery1102036520651203701315_1489643604864&_=1489643604867, line 1: TypeError: jQuery1102036520651203701315_1489643604864 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=1432_21122_18560_22035_20929&csor=3&pwd=py&cb=jQuery1102036520651203701315_1489643604864&_=1489643604868, line 1: TypeError: jQuery1102036520651203701315_1489643604864 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1432_21122_18560_22035_20929&csor=6&pwd=pytho&cb=jQuery1102036520651203701315_1489643604864&_=1489643604871, line 1: TypeError: jQuery1102036520651203701315_1489643604864 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1432_21122_18560_22035_20929&csor=4&pwd=pyt&cb=jQuery1102036520651203701315_1489643604864&_=1489643604869, line 1: TypeError: jQuery1102036520651203701315_1489643604864 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1432_21122_18560_22035_20929&csor=5&pwd=pyth&cb=jQuery1102036520651203701315_1489643604864&_=1489643604870, line 1: TypeError: jQuery1102036520651203701315_1489643604864 is not a function
+
+(firefox:128418): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript warning: http://127.0.0.1:8000/static/csgo/js/vendor.js?v=1489643669.21, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+
+(firefox:128418): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript warning: http://127.0.0.1:8000/static/csgo/js/vendor.js?v=1489643693.7, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: http://www.play.com:6969/static/csgo/js/vendor.js?v=1489643255.85, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: http://www.play.com:6969/static/csgo/js/vendor.js?v=1489643260.58, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1489643984757	geckodriver	INFO	Listening on 127.0.0.1:34084
+1489643984811	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CqOHqXqiplPD
+1489643984812	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1489643984830	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60797
+JavaScript error: http://172.16.20.112:8082/login/passive?token=D4BA1678CF5D17C64BCBCFA86A196CB8F0FF3C845923F40B08B7CCED0A01BCAEB3C9F7C69511D11DD690DCB4A4642EAC39CB37E4B2B3852F26CC12BA4A2FD377E280475D25C19F1FC991CADC75289F37B14A2FB406EF836B, line 1: SyntaxError: missing ; before statement
+JavaScript error: http://www.play.com:6969/login_debug/76561198308782250?, line 132: NS_ERROR_MALFORMED_URI: 
+JavaScript warning: http://www.play.com:6969/static/csgo/js/vendor.js?v=1489643489.76, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: http://www.play.com:6969/static/csgo/js/vendor.js?v=1489643507.26, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+console.warn: Asynchronous operation was aborted as selection changed.
+1489644127815	geckodriver	INFO	Listening on 127.0.0.1:39388
+1489644127870	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CVUvYmaV2lBp
+1489644127870	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1489644127874	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34515
+JavaScript warning: http://www.play.com:6969/static/csgo/js/vendor.js?v=1489643608.88, line 798: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+Marionette threw an error: SyntaxError: An invalid or illegal string was specified
+EM_findElement@chrome://marionette/content/elements.js:672:19
+EM_find@chrome://marionette/content/elements.js:532:23
+findElementContent/<@chrome://marionette/content/listener.js:1419:1
+findElementContent@chrome://marionette/content/listener.js:1418:1
+dispatch/</req<@chrome://marionette/content/listener.js:174:22
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+dispatch/<@chrome://marionette/content/listener.js:170:15
+
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    WalkerActor<.documentElement<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:1584:1
+actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+LocalDebuggerTransport.prototype.send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:569:11
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/DevToolsUtils.js:87:14
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/DevToolsUtils.js:87:14
+
+WalkerActor<.documentElement<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:1584:1
+actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+LocalDebuggerTransport.prototype.send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:569:11
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/DevToolsUtils.js:87:14
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/DevToolsUtils.js:87:14
+console.error: 
+  Protocol error (unknownError): TypeError: can't access dead object
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.animationsActor23
